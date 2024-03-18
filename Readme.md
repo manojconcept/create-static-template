@@ -3,7 +3,7 @@
 ### RUN
 >`node create-static-template.js` 
 
-### Folder structure is created
+### Folder structure
 ```
 static-template
 |-- index.html
