@@ -1,7 +1,7 @@
 ### Instruction
 
 ### RUN
->`node create create-static-template.js` 
+>`node create-static-template.js` 
 
 ### Folder structure is created
 ```
