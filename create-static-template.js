@@ -4,26 +4,30 @@ const htmlTemData = [
     {
         code: `<!DOCTYPE html>
         <html lang="en">
+        
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
+            <title>MANOJCONCEPT</title>
             <!-- manojconcept v0.01 -->
             <link rel="stylesheet" href="src/style/style.css">
         </head>
+        
         <body>
+            <h1>Welcome to manojconcept html static template</h1>
             <script src="./src/script/script.js"></script>
         </body>
+        
         </html>`,
-        directory: `static-template/index.html`
+        directory: `html-static-template/index.html`
     },
     {
         code : "",
-        directory: `static-template/src/style/style.css`
+        directory: `html-static-template/src/style/style.css`
     },
     {
-        code: "console.log(linked)",
-        directory: `static-template/src/script/script.js`
+        code: `console.log('linked')`,
+        directory: `html-static-template/src/script/script.js`
     }
 ];
 
@@ -56,8 +60,8 @@ async function executeActions() {
 
         //>> Create folders
         for (const dir of directoryPath) {
-            await createFolder(`static-template/src/${dir}`);
-            console.log(`Folder created: static-template/src/${dir}`);
+            await createFolder(`html-static-template/src/${dir}`);
+            console.log(`Folder created: html-static-template/src/${dir}`);
         }
 
         //>> Create files
